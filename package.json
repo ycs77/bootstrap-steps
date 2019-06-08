@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-steps",
+  "version": "0.1.0",
+  "description": "A simple Bootstrap 4 steps plugin, support mobile client.",
+  "main": "index.js",
+  "author": "Lucas Yang <yangchenshin77@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycs77/bootstrap-steps.git"
+  },
+  "homepage": "https://github.com/ycs77/bootstrap-steps",
+  "bugs": {
+    "url": "https://github.com/ycs77/bootstrap-steps/issues"
+  },
+  "keywords": [
+    "bootstrap",
+    "step",
+    "steps",
+    "wizard",
+    "bootstrap-step",
+    "plugin"
+  ]
+}
