@@ -1,0 +1,126 @@
+/*!
+ * Bootstrap Steps v0.1.0 (https://github.com/ycs77/bootstrap-steps)
+ * Copyright 2019 Lucas Yang <yangchenshin77@gmail.com>
+ * Licensed under MIT (https://github.com/ycs77/bootstrap-steps/blob/master/LICENSE)
+ */
+
+@import "variables";
+
+.steps {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.steps-scroll {
+  max-width: 100%;
+  padding-top: 0.5rem;
+
+  @include media-breakpoint-down($steps-scroll-mobile-breakpoint) {
+    .steps {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.step {
+  &:first-of-type {
+    .step-circle::before {
+      display: none;
+    }
+  }
+
+  &:last-of-type {
+    .step-content {
+      padding-right: 0;
+    }
+  }
+}
+
+.step-content {
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: $step-content-width;
+  min-width: $step-content-width;
+  max-width: $step-content-width;
+  padding-right: $step-gutter;
+}
+
+.step-circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $step-circle-size;
+  height: $step-circle-size;
+  color: $step-default-circle-color;
+  border: $step-circle-border-width solid $step-default-circle-border-color;
+  border-radius: 100%;
+  background-color: $step-default-circle-bg-color;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -$step-circle-border-width;
+    width: calc(#{$step-content-width} + #{$step-gutter} - #{$step-circle-size});
+    height: $step-circle-border-width;
+    transform: translate(-100%, -50%);
+    color: $step-default-circle-border-color;
+    background-color: currentColor;
+  }
+}
+
+.step-text {
+  color: $step-default-text-color;
+  word-break: break-all;
+  margin-top: 0.25em;
+}
+
+.step-active {
+  .step-circle {
+    color: $step-active-circle-color;
+    background-color: $step-active-circle-bg-color;
+    border-color: $step-active-circle-border-color;
+    &::before {
+      color: $step-active-circle-border-color;
+    }
+  }
+  .step-text {
+    color: $step-active-text-color;
+  }
+}
+
+.step-error {
+  .step-circle {
+    color: $step-error-circle-color;
+    background-color: $step-error-circle-bg-color;
+    border-color: $step-error-circle-border-color;
+    &::before {
+      color: $step-error-circle-border-color;
+    }
+  }
+  .step-text {
+    color: $step-error-text-color;
+  }
+}
+
+.step-success {
+  .step-circle {
+    color: $step-success-circle-color;
+    background-color: $step-success-circle-bg-color;
+    border-color: $step-success-circle-border-color;
+    &::before {
+      color: $step-success-circle-border-color;
+    }
+  }
+  .step-text {
+    color: $step-success-text-color;
+  }
+}

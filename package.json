@@ -2,7 +2,6 @@
   "name": "bootstrap-steps",
   "version": "0.1.0",
   "description": "A simple Bootstrap 4 steps plugin, support mobile client.",
-  "main": "index.js",
   "author": "Lucas Yang <yangchenshin77@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -20,5 +19,21 @@
     "wizard",
     "bootstrap-step",
     "plugin"
-  ]
+  ],
+  "scripts": {
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scripts/build.scss dist/bootstrap-steps.css",
+    "css-prefix": "postcss --config scripts/postcss.config.js --replace dist/bootstrap-steps.css",
+    "css-minify": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/bootstrap-steps.min.css dist/bootstrap-steps.css",
+    "css-copy-to-docs": "cpx dist/bootstrap-steps.min.css docs",
+    "css-build": "npm-run-all css-compile css-prefix css-minify css-copy-to-docs"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "bootstrap": "^4.3.1",
+    "clean-css-cli": "^4.3.0",
+    "cpx": "^1.5.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.2"
+  }
 }

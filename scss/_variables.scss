@@ -1,0 +1,27 @@
+// Bootstrap Steps Variables
+
+$steps-scroll-mobile-breakpoint: sm;
+$step-gutter: 1rem;
+$step-content-width: 5rem;
+$step-circle-size: 1.5rem;
+$step-circle-border-width: 2px;
+
+$step-default-circle-color: $gray-500;
+$step-default-circle-bg-color: $white;
+$step-default-circle-border-color: $gray-500;
+$step-default-text-color: $gray-500;
+
+$step-active-circle-color: $white;
+$step-active-circle-bg-color: $primary;
+$step-active-circle-border-color: $primary;
+$step-active-text-color: $primary;
+
+$step-error-circle-color: $white;
+$step-error-circle-bg-color: $danger;
+$step-error-circle-border-color: $danger;
+$step-error-text-color: $danger;
+
+$step-success-circle-color: $success;
+$step-success-circle-bg-color: $white;
+$step-success-circle-border-color: $success;
+$step-success-text-color: $success;
