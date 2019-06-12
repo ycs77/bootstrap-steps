@@ -28,7 +28,7 @@ $ yarn add bootstrap-steps
 @import "~bootstrap-steps/scss/bootstrap-steps";
 ```
 
-In browser:
+Or use CDN:
 ```html
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap is required -->
 <link  href="/path/to/bootstrap-steps.css" rel="stylesheet">
