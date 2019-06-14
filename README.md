@@ -1,6 +1,7 @@
 # Bootstrap Steps
 
-[![npm version](https://badge.fury.io/js/bootstrap-steps.svg)](https://badge.fury.io/js/bootstrap-steps)
+[![npm version](https://img.shields.io/npm/v/bootstrap-steps.svg)](https://www.npmjs.com/package/bootstrap-steps)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
 
 A simple Bootstrap steps plugin, support mobile client.
 
