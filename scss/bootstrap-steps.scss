@@ -23,11 +23,6 @@
   }
 }
 
-.steps-scroll {
-  max-width: 100%;
-  padding-top: 0.5rem;
-}
-
 .step {
   &:first-of-type {
     .step-circle::before {
@@ -50,6 +45,7 @@
   width: $step-content-width;
   min-width: $step-content-width;
   max-width: $step-content-width;
+  padding-top: $step-content-padding-top;
   padding-right: $step-gutter;
 }
 
