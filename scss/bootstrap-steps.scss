@@ -11,19 +11,21 @@
   margin: 0;
   list-style: none;
   display: flex;
-  justify-content: center;
   overflow-x: auto;
+
+  .step {
+    &:first-child {
+      margin-left: auto;
+    }
+    &:last-child {
+      margin-right: auto;
+    }
+  }
 }
 
 .steps-scroll {
   max-width: 100%;
   padding-top: 0.5rem;
-
-  @include media-breakpoint-down($steps-scroll-mobile-breakpoint) {
-    .steps {
-      justify-content: flex-start;
-    }
-  }
 }
 
 .step {
