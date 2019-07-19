@@ -15,6 +15,7 @@ Must include [Bootstrap](https://getbootstrap.com/).
 
 ### Installation
 
+Install Bootstrap steps package:
 ```
 $ npm install bootstrap-steps
 ```
@@ -23,8 +24,12 @@ or
 $ yarn add bootstrap-steps
 ```
 
+### Import
+
+Import to bootstrap.scss and build:
+
 *bootstrap.scss*
-```
+```scss
 ...
 @import "~bootstrap-steps/scss/bootstrap-steps";
 ```
