@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-steps",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A simple Bootstrap 4 steps plugin, support mobile client.",
   "author": "Lucas Yang <yangchenshin77@gmail.com>",
   "license": "MIT",
