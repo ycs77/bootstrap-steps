@@ -11,7 +11,7 @@ See [Demo](https://ycs77.github.io/bootstrap-steps/).
 
 ## Getting started
 
-Must include [Bootstrap](https://getbootstrap.com/).
+Must include [Bootstrap 4](https://getbootstrap.com/).
 
 ### Installation
 
