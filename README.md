@@ -26,12 +26,11 @@ $ yarn add bootstrap-steps
 
 ### Import
 
-Import to bootstrap.scss and build:
+Import to your scss file and build:
 
-*bootstrap.scss*
 ```scss
-...
-@import "~bootstrap-steps/scss/bootstrap-steps";
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-steps/scss/bootstrap-steps';
 ```
 
 Or use CDN:
