@@ -10,11 +10,9 @@
   display: flex;
   overflow-x: auto;
 }
-
 .steps .step:first-child {
   margin-left: auto;
 }
-
 .steps .step:last-child {
   margin-right: auto;
 }
@@ -22,7 +20,6 @@
 .step:first-of-type .step-circle::before {
   display: none;
 }
-
 .step:last-of-type .step-content {
   padding-right: 0;
 }
@@ -51,9 +48,8 @@
   border-radius: 100%;
   background-color: #fff;
 }
-
 .step-circle::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 50%;
@@ -76,11 +72,9 @@
   background-color: #007bff;
   border-color: #007bff;
 }
-
 .step-active .step-circle::before {
   color: #007bff;
 }
-
 .step-active .step-text {
   color: #007bff;
 }
@@ -90,11 +84,9 @@
   background-color: #dc3545;
   border-color: #dc3545;
 }
-
 .step-error .step-circle::before {
   color: #dc3545;
 }
-
 .step-error .step-text {
   color: #dc3545;
 }
@@ -104,12 +96,11 @@
   background-color: #fff;
   border-color: #28a745;
 }
-
 .step-success .step-circle::before {
   color: #28a745;
 }
-
 .step-success .step-text {
   color: #28a745;
 }
+
 /*# sourceMappingURL=bootstrap-steps.css.map */
