@@ -1,27 +1,27 @@
 // Bootstrap Steps Variables
 
-$step-gutter: 1rem;
-$step-content-width: 5rem;
-$step-content-padding-top: .5rem;
-$step-circle-size: 1.5rem;
-$step-circle-border-width: 2px;
+$step-gutter: 1rem !default;
+$step-content-width: 5rem !default;
+$step-content-padding-top: .5rem !default;
+$step-circle-size: 1.5rem !default;
+$step-circle-border-width: 2px !default;
 
-$step-default-circle-color: $gray-500;
-$step-default-circle-bg-color: $white;
-$step-default-circle-border-color: $gray-500;
-$step-default-text-color: $gray-500;
+$step-default-circle-color: $gray-500 !default;
+$step-default-circle-bg-color: $white !default;
+$step-default-circle-border-color: $gray-500 !default;
+$step-default-text-color: $gray-500 !default;
 
-$step-active-circle-color: $white;
-$step-active-circle-bg-color: $primary;
-$step-active-circle-border-color: $primary;
-$step-active-text-color: $primary;
+$step-active-circle-color: $white !default;
+$step-active-circle-bg-color: $primary !default;
+$step-active-circle-border-color: $primary !default;
+$step-active-text-color: $primary !default;
 
-$step-error-circle-color: $white;
-$step-error-circle-bg-color: $danger;
-$step-error-circle-border-color: $danger;
-$step-error-text-color: $danger;
+$step-error-circle-color: $white !default;
+$step-error-circle-bg-color: $danger !default;
+$step-error-circle-border-color: $danger !default;
+$step-error-text-color: $danger !default;
 
-$step-success-circle-color: $success;
-$step-success-circle-bg-color: $white;
-$step-success-circle-border-color: $success;
-$step-success-text-color: $success;
+$step-success-circle-color: $success !default;
+$step-success-circle-bg-color: $white !default;
+$step-success-circle-border-color: $success !default;
+$step-success-text-color: $success !default;
