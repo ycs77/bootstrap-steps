@@ -36,7 +36,7 @@ Import to your scss file and build:
 Or use CDN:
 ```html
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap is required -->
-<link  href="/path/to/bootstrap-steps.css" rel="stylesheet">
+<link  href="https://cdn.jsdelivr.net/npm/bootstrap-steps@%5E1.0/dist/bootstrap-steps.min.css" rel="stylesheet">
 ```
 
 ### Usage
