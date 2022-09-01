@@ -72,7 +72,7 @@ Or use CDN:
 
 ## Sponsor
 
-If you think this package have helped you, please consider [Become a sponsor](https://www.patreon.com/ycs77) to support my work~ and your avatar will be visible on my major projects.
+If you think this package has helped you, please consider [Becoming a sponsor](https://www.patreon.com/ycs77) to support my work~ and your avatar will be visible on my major projects.
 
 <p align="center">
   <a href="https://www.patreon.com/ycs77">
